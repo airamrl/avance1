@@ -1,0 +1,100 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eeeeee;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+}
+
+.header {
+    font-size: 50px;
+   
+    text-align: center;
+    padding: 100px 100px;
+
+}
+
+.contenedor {
+
+    width: 100%;
+    border: 10px solid black;
+    margin: auto;
+   
+    font-size: 14px;
+    line-height: 20px;
+    /* text-align: center; */
+
+}
+
+.contenedor > div {
+
+    display: block;
+    padding: 20px;
+    
+    
+    
+}
+
+
+/*ESTILOS ENCABEZADOS PARRAFOS*/
+
+h1, h2 {
+    padding: 10% 10% 2% 10%;
+}
+
+p {
+    padding: 2% 10% 10% 10%;
+    text-align: left;
+}
+
+
+
+.tb {
+    color: white;
+}
+
+
+.re {
+    text-align: left;
+    padding: 0% 2% 0% 60%;
+}
+
+
+
+/* NUESTRA LABOR SOCIAL */
+
+.apoyo, .trabajo, .proyectos, .convenios {
+    
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* display: inline-block;
+    justify-content: center; */
+    justify-items: center;
+    align-items: center; 
+    padding: 0% 8% 0% 7%;
+    
+}
+
+.labor p {
+    text-align: center;
+    color: white;
+}
+
+/* .trabajo {
+    display: inline-block;
+} */
+
+/*NOSOTROS*/
+
+/* .nosotros {
+    background: url(../img/nosotros.jpg);
+
+} */
+
