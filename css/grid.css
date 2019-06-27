@@ -40,9 +40,12 @@
 /*BANNER PRINCIPAL*/
 
 .contenedor .header {
-    background: yellow;
+    background-position: center 0; 
+    background-repeat: no-repeat;
+    background-size: cover;
     grid-column-start: header;
     grid-column-end: header;
+    height: 28rem;
 }
 
 /* NOSOTROS */
