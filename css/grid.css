@@ -45,7 +45,8 @@
     background-size: cover;
     grid-column-start: header;
     grid-column-end: header;
-    height: 28rem;
+    height: 40rem;
+    /* height: 28rem; */
 }
 
 /* NOSOTROS */
@@ -53,6 +54,8 @@
 
 
 .contenedor .nosotros {
+
+    
     /* background: #393e46;  */
     background-image: url(../img/nosotros.png);
     /* background-position: center; */
@@ -68,6 +71,11 @@
 }
 
 
+.nosotros h1 {
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    color: #6FBA05;
+}
 
 /*COMO AYUDAR*/
 
@@ -81,7 +89,11 @@
     
 }
 
-    
+.ayudar h2 {
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+}
 
 /*RECICLAJE*/
 
@@ -90,12 +102,21 @@
     background-repeat: no-repeat;
     background-size: cover;
     
-
-
+    
     grid-area: reciclaje;
 }
 
+.reciclaje li {
+    color: #000000;
+}
 
+
+
+.reciclaje h3 {
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    color: #6FBA05;
+}
 
 /*DONACION*/
 
@@ -109,16 +130,35 @@
 }
 
 
+.donacion h3 {
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    color: #6FBA05;
+}
+
+
+.donacion li {
+    color: #000000;
+}
 /* NUESTRA LABOR SOCIAL*/
 
 .contenedor .labor {
     background-image: url(../img/nuestralab.jpg);
     background-size: cover;
-
+    
 
     grid-area: labor;
 }
 
+
+
+.labor h3 {
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 0.5%;
+    text-align: center;
+}
 
 .labor .apoyo {
     
@@ -127,18 +167,103 @@
 /* NOTICIAS Y REPORTAJES LATERAL IZQUIERDO*/
 
 .contenedor .noti {
-    background: orange;
+    background: #ffffff;
     grid-area: noti;
+}
+
+.noti h3 {
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    color: #6FBA05;
+    margin-left: 16%;
+}
+
+
+/* .lanoti { 
+
+    border: red solid 5px;
+    width: 40%;
+    height: 20%;
+    margin-top: 5%;
+    margin-left: 16%;
+
+
+} */
+
+
+
+
+.vermasnoti {
+    
+    text-align: center;
+    padding: 3%;
+    font-size: 100%;
+    font-weight: bold;
+    
+    color: #ffffff;
+    background-color: rgba(111, 186, 5, 0.7);
+
+    text-transform: uppercase;
+    margin-left: 73%;
+   
 }
 
 
 /*NOTICIAS Y REPORTAJES PRINCIPAL*/
 
 
+
+
 .contenedor .repor {
-    background: orangered;
+    background: white;
     grid-area: repor;
 }
+
+
+.repor h3 {
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+    color: #6FBA05;
+}
+.repor p {
+    font-family: 'Open Sans';
+    font-size: 1em;
+}
+
+
+.imagenrepor img {
+    height: 40%;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 4%; 
+}
+
+.titureportajes {
+    width: 50%;
+    height: 10%;
+    font-weight: bold;
+    color: #6FBA05;
+    margin-left: 4%;
+
+}
+
+.vermasrepor {
+    
+    text-align: center;
+    padding: 3%;
+    font-size: 100%;
+    font-weight: bold;
+    
+    color: #ffffff;
+    background-color: rgba(111, 186, 5, 0.7);
+
+    text-transform: uppercase;
+    margin-left: 73%;
+   
+}
+
+
 
 
 /*EMPRESAS SOLIDARIAS*/
@@ -168,6 +293,10 @@
     background:aqua;
     grid-area: copiti;
 }
+
+
+
+
 
 
 
